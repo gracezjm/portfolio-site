@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <form action="/api/contactme" method="post">
+        <br><br>
+        <div>
+            <label for="first-name">First Name</label>
+            <input 
+                type="text" 
+                id="first-name" 
+                name="first-name"
+            />
+        </div>
+        <br>
+        <div>
+            <label for="last-name">Last Name</label>
+            <input 
+                type="text" 
+                id="last-name" 
+                name="last-name"
+            />
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input 
+                type="number" 
+                id="phone" 
+                name="phone"
+            />
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input 
+                type="email" 
+                id="email" 
+                name="email"
+            />
+        </div>
+        <br><br>
+        <div>
+            <label for="description">
+                Please describe the available job title:
+            </label>
+            <textarea 
+                id="description" 
+                name="description"
+                rows="5">               
+            </textarea>
+        </div>
+        <div>
+            <br><br><br>
+            <button type="submit">Submit </button>
+        </div>
+    </form>
+</body>
+</html>
