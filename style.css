@@ -1,0 +1,107 @@
+body {
+    background-color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #8c5432;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #808b2e;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+img {
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 25px;
+}
+
+li {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #422e8b;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #422e8b;
+}
+
+a:hover {
+    color: #ff4500;
+    font-size: 28px;
+}
+
+.grid-container {
+    display: grid; /* sets the display property to grid, indicating that the container should be treated as a grid layout */
+
+     /* sets the number of columns in the grid to auto-fill the page and sets their minimum width to 250px and maximum width to 400px */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 400px));
+    grid-gap: 20px; /* sets the space between each column and row in the grid to 20px */
+    justify-content: center; /* centers the grid items horizontally within the container */
+    margin: 20px; /* sets a margin of 20px around the outside of the container */
+  }
+  
+  .grid-item {
+    background-color: lightgray; /* sets the background color of the grid items to light gray */
+    text-align: center; /* centers the text within the grid items */
+    padding: 20px; /* sets a padding of 20px within each grid item */
+  }
+  
+  .poster {
+    width: 350px; /* sets the width of the poster container to 200px */
+    height: 250px; /* sets the height of the poster container to 300px */
+    overflow: hidden; /* hides content that overflows the poster container */
+    margin: 0 auto; /* centers the poster container within its parent grid item */
+  }
+  
+  .poster img {
+    width: 100%; /* sets the width of the poster image to 100% of its parent container */
+    height: 100%; /* sets the height of the poster image to 100% of its parent container */
+    object-fit: contain; /* resizes the poster image to fit within the dimensions of the poster container while maintaining its aspect ratio */
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdd2a6;
+
+  }
+
+  .btn-lg {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+  }
+
+ 
